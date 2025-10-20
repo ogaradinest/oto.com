@@ -234,7 +234,7 @@ const ContactSection = () => {
 
         {/* Why Choose Us - Full width with aqua glass background */}
         <div className="mt-16">
-          <div className="glass-card rounded-3xl shadow-2xl p-8 w-full liquid-wave aqua-glow bg-gradient-to-br from-blue-100/50 to-white/50">
+          <div className="glass-card rounded-3xl shadow-2xl p-8 w-full aqua-glow bg-gradient-to-br from-blue-100/50 to-white/50">
             <h3 className="text-4xl lg:text-5xl font-bold text-gray-700 mb-6 text-center pulse-glow">Why choose otobrothers?</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
