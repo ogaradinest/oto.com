@@ -115,7 +115,12 @@ const Footer = () => {
                 © 2025 otobrothers. All rights reserved.
               </p>
               <div className="flex space-x-6 text-sm">
-                <a href="#" className="text-gray-400 hover:text-[#F9AD6A] transition-colors duration-200">
+                <a 
+                  href="https://customer-assets.emergentagent.com/job_owl-automation/artifacts/a1dpnihl_oTo_T%26Cs.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#F9AD6A] transition-colors duration-200"
+                >
                   Terms & Conditions
                 </a>
                 <a href="#" className="text-gray-400 hover:text-[#F9AD6A] transition-colors duration-200">
