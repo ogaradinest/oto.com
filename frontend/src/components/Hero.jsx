@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="space-y-6 lg:space-y-8 max-w-4xl">
             <div className="space-y-4 lg:space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center glass-card p-8 rounded-3xl aqua-glow">
-                <span className="text-blue-600 static-glow">otomation</span>
+                <span className="text-blue-600">otomation</span>
                 <br />
                 <span className="text-gray-700">at the center of everything* we do.</span>
                 <br />
