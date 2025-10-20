@@ -42,7 +42,7 @@ const ProcessSection = () => {
         {/* Process Steps - All in one row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12 lg:mb-16">
           {processSteps.map((process, index) => (
-            <div key={index} className={`relative rounded-2xl bg-gradient-to-br ${process.color} p-6 lg:p-8 text-white text-center min-h-[280px] flex flex-col justify-center`}>
+            <div key={index} className={`relative rounded-2xl bg-gradient-to-br ${process.color} p-8 text-white min-h-[320px] flex flex-col items-center justify-center text-center`}>
               {/* Background decoration */}
               <div className="absolute inset-0 opacity-10 rounded-2xl overflow-hidden">
                 <div className="absolute top-4 left-4 w-16 h-16 bg-white rounded-full blur-xl"></div>
@@ -50,18 +50,18 @@ const ProcessSection = () => {
               </div>
 
               {/* Icon */}
-              <div className="relative z-10 mb-6">
-                <div className={`${process.iconBg} p-4 rounded-xl inline-block`}>
+              <div className="relative z-10 mb-6 flex justify-center">
+                <div className={`${process.iconBg} p-4 rounded-xl`}>
                   <process.icon className={`${process.iconColor}`} size={32} />
                 </div>
               </div>
               
               {/* Content */}
-              <div className="relative z-10">
-                <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+              <div className="relative z-10 flex flex-col items-center">
+                <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-center">
                   {process.step}
                 </h3>
-                <p className="text-base lg:text-lg leading-relaxed opacity-90">
+                <p className="text-base lg:text-lg leading-relaxed opacity-90 text-center max-w-xs">
                   {process.description}
                 </p>
               </div>
