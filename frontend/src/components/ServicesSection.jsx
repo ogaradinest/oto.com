@@ -54,8 +54,7 @@ const ServicesSection = () => {
             return (
               <div 
                 key={service.id} 
-                className="glass-card rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden liquid-wave floating-element aqua-glow smooth-all"
-                style={{animationDelay: `${index * 0.5}s`}}
+                className="glass-card rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 overflow-hidden aqua-glow smooth-all"
               >
                 {/* Service Header */}
                 <div 
