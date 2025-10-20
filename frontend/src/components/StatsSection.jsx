@@ -14,7 +14,7 @@ const StatsSection = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 glass-card p-6 rounded-3xl aqua-glow">
-            The best <span className="text-blue-600 static-glow">otomation ROIs</span>
+            The best <span className="text-blue-600">otomation ROIs</span>
             <br />
             are working in sync. Like owl's eyes.{" "}
             <img 
