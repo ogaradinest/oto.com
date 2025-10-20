@@ -30,7 +30,7 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section id="process" className="py-12 sm:py-16 lg:py-20 bg-white">
+    <section id="process" className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 static-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
