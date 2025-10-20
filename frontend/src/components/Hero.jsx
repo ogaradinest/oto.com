@@ -15,12 +15,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-800 overflow-hidden liquid-bg">
-      {/* Aqua liquid background decoration */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full blur-3xl floating-element"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-br from-blue-300 to-blue-500 rounded-full blur-2xl floating-element" style={{animationDelay: '2s'}}></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-red-200 to-red-300 rounded-full blur-3xl floating-element" style={{animationDelay: '4s'}}></div>
+    <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-800 overflow-hidden static-bg">
+      {/* Static glass background decoration */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-br from-blue-300 to-blue-500 rounded-full blur-2xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-red-200 to-red-300 rounded-full blur-3xl"></div>
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
