@@ -13,14 +13,14 @@ const StatsSection = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-8">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6 glass-card p-6 rounded-3xl liquid-wave aqua-glow">
-            The best <span className="text-blue-600 pulse-glow">otomation ROIs</span>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-6 glass-card p-6 rounded-3xl aqua-glow">
+            The best <span className="text-blue-600 static-glow">otomation ROIs</span>
             <br />
             are working in sync. Like owl's eyes.{" "}
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
               alt="owl eyes" 
-              className="inline-block h-16 w-auto ml-2 floating-element aqua-glow rounded-full"
+              className="inline-block h-16 w-auto ml-2 aqua-glow rounded-full"
             />
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
