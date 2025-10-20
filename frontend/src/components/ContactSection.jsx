@@ -243,7 +243,7 @@ const ContactSection = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
-                <p className="text-xl text-gray-700">We leave customers' teams fully trained and with tools to experiment their own <span className="text-[#0000FF]">otomation</span>.</p>
+                <p className="text-xl text-gray-700">We leave customers' teams fully trained and with tools to experiment their own <span className="text-blue-600">otomation</span>.</p>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
