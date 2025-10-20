@@ -59,7 +59,7 @@ const ServicesSection = () => {
               >
                 {/* Service Header */}
                 <div 
-                  className={`${colors.bg} ${colors.hover} p-6 cursor-pointer transition-all duration-200`}
+                  className={`${colors.bg} ${colors.hover} p-6 cursor-pointer transition-all duration-500 aqua-glow`}
                   onClick={() => toggleService(service.id)}
                 >
                   <div className="flex items-center justify-between">
