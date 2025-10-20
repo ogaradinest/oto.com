@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="glass-header shadow-2xl sticky top-0 z-50 border-b border-aqua">
+    <header className="bg-white shadow-2xl sticky top-0 z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Combined Logo and Header Image Section */}
         <div className="relative py-8 sm:py-10 lg:py-12">
