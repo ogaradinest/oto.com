@@ -24,13 +24,12 @@ const ServicesSection = () => {
 
   const getServiceColor = (index) => {
     const colors = [
-      { bg: "bg-[#43978D]", hover: "hover:bg-[#264D59]", accent: "border-[#43978D]" },
-      { bg: "bg-[#F9AD6A]", hover: "hover:bg-[#D46C4E]", accent: "border-[#F9AD6A]" },
-      { bg: "bg-[#264D59]", hover: "hover:bg-[#43978D]", accent: "border-[#264D59]" },
-      { bg: "bg-[#D46C4E]", hover: "hover:bg-[#F9AD6A]", accent: "border-[#D46C4E]" },
-      { bg: "bg-[#43978D]", hover: "hover:bg-[#264D59]", accent: "border-[#43978D]" },
-      { bg: "bg-[#F9AD6A]", hover: "hover:bg-[#D46C4E]", accent: "border-[#F9AD6A]" },
-      { bg: "bg-[#264D59]", hover: "hover:bg-[#43978D]", accent: "border-[#264D59]" }
+      { bg: "bg-gradient-to-br from-blue-400 to-blue-500", hover: "hover:from-blue-500 hover:to-blue-600", accent: "border-blue-300" },
+      { bg: "bg-gradient-to-br from-blue-500 to-blue-600", hover: "hover:from-blue-600 hover:to-blue-700", accent: "border-blue-400" },
+      { bg: "bg-gradient-to-br from-red-400 to-red-500", hover: "hover:from-red-500 hover:to-red-600", accent: "border-red-300" },
+      { bg: "bg-gradient-to-br from-blue-300 to-blue-400", hover: "hover:from-blue-400 hover:to-blue-500", accent: "border-blue-200" },
+      { bg: "bg-gradient-to-br from-blue-600 to-blue-700", hover: "hover:from-blue-700 hover:to-blue-800", accent: "border-blue-500" },
+      { bg: "bg-gradient-to-br from-red-300 to-red-400", hover: "hover:from-red-400 hover:to-red-500", accent: "border-red-200" }
     ];
     return colors[index % colors.length];
   };
