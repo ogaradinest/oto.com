@@ -71,23 +71,23 @@ export const mockServices = [
 export const mockStats = [
   {
     number: "88",
-    label: "Automation Opportunities Identified",
-    description: "High-impact automation solutions mapped for businesses"
+    label: "opportunities",
+    description: "high-impact solutions mapped for businesses"
   },
   {
     number: "+$270k",
-    label: "Saved",
-    description: "Through our automation implementations"
+    label: "saved",
+    description: "through our otomation implementations"
   },
   {
     number: "21",
-    label: "Custom Solutions Delivered",
-    description: "Bespoke automation systems that move the needle"
+    label: "custom solutions delivered",
+    description: "for systems that move the needle"
   },
   {
     number: "99%",
-    label: "Client Satisfaction Rate",
-    description: "Businesses successfully transformed with automation"
+    label: "client satisfaction rate",
+    description: "businesses successfully improved"
   }
 ];
 
