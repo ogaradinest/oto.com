@@ -43,7 +43,7 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <div className="glass-card rounded-3xl shadow-2xl p-8 lg:p-12 liquid-wave aqua-glow">
+            <div className="glass-card rounded-3xl shadow-2xl p-8 lg:p-12 aqua-glow">
               {isSubmitted ? (
                 <div className="text-center py-12">
                   <CheckCircle className="text-[#43978D] mx-auto mb-4" size={64} />
