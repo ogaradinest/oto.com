@@ -238,20 +238,20 @@ const ContactSection = () => {
             <h3 className="text-4xl lg:text-5xl font-bold text-gray-700 mb-6 text-center pulse-glow">Why choose otobrothers?</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
-                <div className="w-4 h-4 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">Straight talkers because business talk is serious but it shouldn't be boring.</p>
+                <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
+                <p className="text-xl text-gray-700">Straight talkers because business talk is serious but it shouldn't be boring.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-4 h-4 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">We leave customers' teams fully trained and with tools to experiment their own <span className="text-[#0000FF]">otomation</span>.</p>
+                <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
+                <p className="text-xl text-gray-700">We leave customers' teams fully trained and with tools to experiment their own <span className="text-[#0000FF]">otomation</span>.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-4 h-4 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
+                <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
+                <p className="text-xl text-gray-700">+50 years experience combined in Sales, Marketing, Advertising and Strategy; with Capital letters because we know what are we talking about.</p>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-4 h-4 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                <p className="text-xl text-white">Proven track record with 21 successful implementations to date, with +$250k business revenue via <span className="text-[#0000FF]">otomation</span> efficiencies.</p>
+                <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
+                <p className="text-xl text-gray-700">Proven track record with 21 successful implementations to date, with +$250k business revenue via <span className="text-[#0000FF]">otomation</span> efficiencies.</p>
               </div>
             </div>
           </div>
