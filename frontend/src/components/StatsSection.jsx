@@ -3,7 +3,7 @@ import { mockStats } from "../data/mockData";
 
 const StatsSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-700 overflow-hidden liquid-bg">
+    <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-700 overflow-hidden static-bg">
       {/* Aqua background decoration */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full blur-3xl floating-element"></div>
