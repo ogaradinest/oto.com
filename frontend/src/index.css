@@ -76,47 +76,7 @@
         0 0 30px rgba(147, 197, 253, 0.2);
 }
 
-/* Keyframe Animations */
-@keyframes liquidFlow {
-    0%, 100% { 
-        transform: translateX(-5px) rotate(1deg);
-        background-position: 0% 50%;
-    }
-    50% { 
-        transform: translateX(5px) rotate(-1deg);
-        background-position: 100% 50%;
-    }
-}
-
-@keyframes liquidWave {
-    0% { left: -100%; }
-    50% { left: 0%; }
-    100% { left: 100%; }
-}
-
-@keyframes floating {
-    0%, 100% { 
-        transform: translateY(0px) rotate(0deg);
-    }
-    25% {
-        transform: translateY(-10px) rotate(1deg);
-    }
-    50% { 
-        transform: translateY(-5px) rotate(0deg);
-    }
-    75% {
-        transform: translateY(-15px) rotate(-1deg);
-    }
-}
-
-@keyframes pulseGlow {
-    0%, 100% { 
-        box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
-    }
-    50% { 
-        box-shadow: 0 0 40px rgba(59, 130, 246, 0.8), 0 0 80px rgba(147, 197, 253, 0.3);
-    }
-}
+/* Static Effects Only - No Animations */
 
 /* Transparent overlays */
 .overlay-transparent {
