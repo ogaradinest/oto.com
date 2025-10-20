@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
               <button 
                 onClick={scrollToContact}
-                className="bg-blue-600 text-white px-6 lg:px-8 py-3 lg:py-4 rounded-2xl font-semibold text-base lg:text-lg hover:bg-blue-700 transition-all duration-300 flex items-center justify-center gap-2 group relative z-10"
+                className="bg-[#1d4ed8] text-white px-6 lg:px-8 py-3 lg:py-4 rounded-2xl font-semibold text-base lg:text-lg hover:bg-[#1e40af] transition-all duration-300 flex items-center justify-center gap-2 group relative z-10"
               >
                 Let's talk
                 <ArrowRight className="group-hover:translate-x-1 transition-transform duration-200" size={20} />
