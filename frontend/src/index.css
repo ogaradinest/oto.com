@@ -70,11 +70,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.static-glow {
-    box-shadow: 
-        0 0 15px rgba(59, 130, 246, 0.3),
-        0 0 30px rgba(147, 197, 253, 0.2);
-}
+/* Removed static-glow class */
 
 /* Static Effects Only - No Animations */
 
