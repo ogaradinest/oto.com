@@ -42,7 +42,7 @@ const ProcessSection = () => {
         {/* Process Steps - All in one row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-12 lg:mb-16">
           {processSteps.map((process, index) => (
-            <div key={index} className={`relative rounded-2xl bg-gradient-to-br ${process.color} p-8 text-white min-h-[320px] flex flex-col items-center justify-center text-center`}>
+            <div key={index} className={`relative rounded-2xl bg-gradient-to-br ${process.color} p-8 text-white min-h-[320px] flex flex-col items-center text-center`}>
               {/* Background decoration */}
               <div className="absolute inset-0 opacity-10 rounded-2xl overflow-hidden">
                 <div className="absolute top-4 left-4 w-16 h-16 bg-white rounded-full blur-xl"></div>
@@ -50,7 +50,7 @@ const ProcessSection = () => {
               </div>
 
               {/* Icon */}
-              <div className="relative z-10 mb-6 flex justify-center">
+              <div className="relative z-10 mb-6 flex justify-center pt-4">
                 <div className={`${process.iconBg} p-4 rounded-xl`}>
                   <process.icon className={`${process.iconColor}`} size={32} />
                 </div>
