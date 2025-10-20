@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="glass-card bg-gradient-to-br from-gray-600/80 to-gray-700/80 text-white liquid-bg">
+    <footer className="glass-card bg-gradient-to-br from-gray-600/80 to-gray-700/80 text-white static-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16 grid lg:grid-cols-3 gap-12">
