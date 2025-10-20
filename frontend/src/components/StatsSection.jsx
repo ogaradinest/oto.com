@@ -39,7 +39,17 @@ const StatsSection = () => {
                 <div className="text-4xl lg:text-5xl font-bold text-blue-600 mb-3 group-hover:scale-110 transition-transform duration-300 pt-4">
                   {stat.number}
                 </div>
-                <div className="h-1 w-16 bg-red-500 mb-3 rounded-full shadow-md" style={{backgroundColor: '#ef4444'}}></div>
+                <div 
+                  className="mb-3" 
+                  style={{
+                    width: '60px',
+                    height: '4px',
+                    backgroundColor: '#dc2626',
+                    borderRadius: '2px',
+                    display: 'block',
+                    margin: '0 auto'
+                  }}
+                ></div>
                 <h3 className="text-lg font-bold mb-2 text-gray-700">{stat.label}</h3>
                 <p className="text-gray-600 text-sm leading-tight">{stat.description}</p>
               </div>
