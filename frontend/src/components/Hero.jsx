@@ -49,8 +49,8 @@ const Hero = () => {
 
             {/* Key benefits */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 pt-6 lg:pt-8">
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave">
-                <div className="bg-gradient-to-br from-blue-400 to-blue-500 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element">
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl">
+                <div className="bg-gradient-to-br from-blue-400 to-blue-500 p-3 rounded-xl flex-shrink-0 aqua-glow">
                   <Zap className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
@@ -59,8 +59,8 @@ const Hero = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave" style={{animationDelay: '1s'}}>
-                <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element" style={{animationDelay: '1s'}}>
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl">
+                <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-xl flex-shrink-0 aqua-glow">
                   <Target className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
@@ -69,8 +69,8 @@ const Hero = () => {
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave" style={{animationDelay: '2s'}}>
-                <div className="bg-gradient-to-br from-red-400 to-red-500 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element" style={{animationDelay: '2s'}}>
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl">
+                <div className="bg-gradient-to-br from-red-400 to-red-500 p-3 rounded-xl flex-shrink-0 aqua-glow">
                   <DollarSign className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
