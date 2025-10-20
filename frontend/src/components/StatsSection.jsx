@@ -35,7 +35,7 @@ const StatsSection = () => {
               key={index} 
               className="text-center group hover:scale-105 transition-transform duration-300"
             >
-              <div className="glass-card rounded-3xl p-8 hover:scale-105 transition-all duration-500 h-48 flex flex-col justify-center liquid-wave aqua-glow floating-element" style={{animationDelay: `${index * 0.5}s`}}>
+              <div className="glass-card rounded-3xl p-8 hover:scale-105 transition-all duration-500 h-48 flex flex-col justify-center aqua-glow">
                 <div className="text-4xl lg:text-5xl font-bold text-blue-600 mb-4 group-hover:scale-110 transition-transform duration-300 pulse-glow">
                   {stat.number}
                 </div>
