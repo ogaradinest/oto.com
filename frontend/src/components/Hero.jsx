@@ -49,33 +49,33 @@ const Hero = () => {
 
             {/* Key benefits */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 pt-6 lg:pt-8">
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3">
-                <div className="bg-[#F9E07F] p-2 rounded-lg flex-shrink-0">
-                  <Zap className="text-[#264D59]" size={20} />
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave">
+                <div className="bg-gradient-to-br from-blue-400 to-blue-500 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element">
+                  <Zap className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">FAST</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">Implementation in weeks</p>
+                  <h3 className="font-semibold text-base lg:text-lg text-gray-700">FAST</h3>
+                  <p className="text-gray-500 text-xs lg:text-sm">Implementation in weeks</p>
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3">
-                <div className="bg-[#F9AD6A] p-2 rounded-lg flex-shrink-0">
-                  <Target className="text-[#264D59]" size={20} />
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave" style={{animationDelay: '1s'}}>
+                <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element" style={{animationDelay: '1s'}}>
+                  <Target className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">PROVEN</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">21 successful implementations</p>
+                  <h3 className="font-semibold text-base lg:text-lg text-gray-700">PROVEN</h3>
+                  <p className="text-gray-500 text-xs lg:text-sm">21 successful implementations</p>
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3">
-                <div className="bg-[#D46C4E] p-2 rounded-lg flex-shrink-0">
+              <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-3 glass-card p-4 rounded-2xl liquid-wave" style={{animationDelay: '2s'}}>
+                <div className="bg-gradient-to-br from-red-400 to-red-500 p-3 rounded-xl flex-shrink-0 aqua-glow floating-element" style={{animationDelay: '2s'}}>
                   <DollarSign className="text-white" size={20} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <h3 className="font-semibold text-base lg:text-lg">ROI</h3>
-                  <p className="text-gray-300 text-xs lg:text-sm">+$250k savings delivered</p>
+                  <h3 className="font-semibold text-base lg:text-lg text-gray-700">ROI</h3>
+                  <p className="text-gray-500 text-xs lg:text-sm">+$250k savings delivered</p>
                 </div>
               </div>
             </div>
