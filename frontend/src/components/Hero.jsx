@@ -28,12 +28,12 @@ const Hero = () => {
           {/* Content */}
           <div className="space-y-6 lg:space-y-8 max-w-4xl">
             <div className="space-y-4 lg:space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center">
-                <span className="text-[#0000FF]">otomation</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-center glass-card p-8 rounded-3xl aqua-glow liquid-wave">
+                <span className="text-blue-600 pulse-glow">otomation</span>
                 <br />
-                at the center of everything* we do.
+                <span className="text-gray-700">at the center of everything* we do.</span>
                 <br />
-                <span className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-normal">*apart from ping-pong. that's still analog.</span>
+                <span className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-normal text-gray-600">*apart from ping-pong. that's still analog.</span>
               </h1>
             </div>
 
