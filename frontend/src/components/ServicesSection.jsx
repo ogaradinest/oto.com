@@ -40,7 +40,7 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-700 mb-6 glass-card p-6 rounded-3xl aqua-glow">
-            <span className="text-blue-600 static-glow">otomation</span> Solutions
+            <span className="text-blue-600">otomation</span> Solutions
           </h2>
         </div>
 
