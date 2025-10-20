@@ -24,6 +24,47 @@
     font-style: normal;
 }
 
+/* Custom font weight mappings for Armin Grotesk */
+* {
+    font-family: 'Armin Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Map font weights to appropriate Armin Grotesk variants */
+.font-light,
+[class*="font-light"] {
+    font-weight: 200 !important;
+}
+
+.font-normal,
+[class*="font-normal"] {
+    font-weight: 400 !important;
+}
+
+.font-medium,
+[class*="font-medium"] {
+    font-weight: 400 !important;
+}
+
+.font-semibold,
+[class*="font-semibold"] {
+    font-weight: 800 !important;
+}
+
+.font-bold,
+[class*="font-bold"] {
+    font-weight: 800 !important;
+}
+
+.font-extrabold,
+[class*="font-extrabold"] {
+    font-weight: 800 !important;
+}
+
+.font-black,
+[class*="font-black"] {
+    font-weight: 800 !important;
+}
+
 body {
     margin: 0;
     font-family: 'Armin Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
