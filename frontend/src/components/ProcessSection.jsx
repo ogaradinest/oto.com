@@ -34,8 +34,8 @@ const ProcessSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#264D59] mb-4 lg:mb-6">
-            <span className="text-[#0000FF]">otomation</span> Process
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-700 mb-4 lg:mb-6">
+            <span className="text-blue-600">otomation</span> Process
           </h2>
         </div>
 
