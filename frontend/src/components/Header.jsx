@@ -57,7 +57,7 @@ const Header = () => {
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 lg:px-6 py-2 rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 font-medium text-sm lg:text-base glass-card aqua-glow smooth-all floating-element"
+                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 lg:px-6 py-2 rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 font-medium text-sm lg:text-base glass-card aqua-glow smooth-all"
               >
                 Let's talk
               </button>
