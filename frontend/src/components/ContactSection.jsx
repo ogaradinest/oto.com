@@ -36,7 +36,7 @@ const ContactSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-700 mb-6 glass-card p-6 rounded-3xl aqua-glow">
-            <span className="text-blue-600 static-glow">Let's talk</span>
+            <span className="text-blue-600">Let's talk</span>
           </h2>
         </div>
 
