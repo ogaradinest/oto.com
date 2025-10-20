@@ -39,25 +39,25 @@ const Header = () => {
             <nav className="hidden md:flex space-x-4 lg:space-x-8 ml-auto">
               <button 
                 onClick={() => scrollToSection('process')}
-                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="text-gray-600 hover:text-blue-600 transition-all duration-300 font-medium text-sm lg:text-base smooth-all hover:scale-105"
               >
                 Process
               </button>
               <button 
                 onClick={() => scrollToSection('solutions')}
-                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="text-gray-600 hover:text-blue-600 transition-all duration-300 font-medium text-sm lg:text-base smooth-all hover:scale-105"
               >
                 Solutions
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-gray-700 hover:text-[#0000FF] transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="text-gray-600 hover:text-blue-600 transition-all duration-300 font-medium text-sm lg:text-base smooth-all hover:scale-105"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="bg-[#0000FF] text-white px-4 lg:px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium text-sm lg:text-base"
+                className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 lg:px-6 py-2 rounded-xl hover:from-blue-600 hover:to-blue-700 transition-all duration-300 font-medium text-sm lg:text-base glass-card aqua-glow smooth-all floating-element"
               >
                 Let's talk
               </button>
