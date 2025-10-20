@@ -44,7 +44,7 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a 
-                href="https://youtube.com/@otobrothers" 
+                href="https://www.youtube.com/@otobrothers_ai" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white bg-opacity-10 p-3 rounded-lg hover:bg-opacity-20 transition-all duration-200 hover:scale-105"
