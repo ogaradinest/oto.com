@@ -251,7 +251,7 @@ const ContactSection = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-4 h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full mt-2 flex-shrink-0 aqua-glow floating-element"></div>
-                <p className="text-xl text-gray-700">Proven track record with 21 successful implementations to date, with +$250k business revenue via <span className="text-[#0000FF]">otomation</span> efficiencies.</p>
+                <p className="text-xl text-gray-700">Proven track record with 21 successful implementations to date, with +$250k business revenue via <span className="text-blue-600">otomation</span> efficiencies.</p>
               </div>
             </div>
           </div>
