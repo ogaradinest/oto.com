@@ -39,7 +39,7 @@ const StatsSection = () => {
                 <div className="text-4xl lg:text-5xl font-bold text-blue-600 mb-3 group-hover:scale-110 transition-transform duration-300 pt-4">
                   {stat.number}
                 </div>
-                <div className="h-1 w-12 bg-gradient-to-r from-red-400 to-red-500 mb-3 rounded-full"></div>
+                <div className="h-1 w-16 bg-red-500 mb-3 rounded-full shadow-sm"></div>
                 <h3 className="text-lg font-bold mb-2 text-gray-700">{stat.label}</h3>
                 <p className="text-gray-600 text-sm leading-tight">{stat.description}</p>
               </div>
