@@ -123,7 +123,12 @@ const Footer = () => {
                 >
                   Terms & Conditions
                 </a>
-                <a href="#" className="text-gray-400 hover:text-[#F9AD6A] transition-colors duration-200">
+                <a 
+                  href="https://customer-assets.emergentagent.com/job_owl-automation/artifacts/0b0c685j_oTo_PrivacyPolicy.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-[#F9AD6A] transition-colors duration-200"
+                >
                   Privacy Policy
                 </a>
               </div>
