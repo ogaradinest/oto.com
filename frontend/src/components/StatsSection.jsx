@@ -4,10 +4,10 @@ import { mockStats } from "../data/mockData";
 const StatsSection = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 text-gray-700 overflow-hidden liquid-bg">
-      {/* Background decoration */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-[#43978D] rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-80 h-80 bg-[#F9AD6A] rounded-full blur-3xl"></div>
+      {/* Aqua background decoration */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full blur-3xl floating-element"></div>
+        <div className="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-br from-red-200 to-red-300 rounded-full blur-3xl floating-element" style={{animationDelay: '3s'}}></div>
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
