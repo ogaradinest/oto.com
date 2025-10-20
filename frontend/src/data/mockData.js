@@ -81,7 +81,7 @@ export const mockStats = [
   },
   {
     number: "21",
-    label: "custom solutions delivered",
+    label: "solutions delivered",
     description: "for systems that move the needle"
   },
   {
