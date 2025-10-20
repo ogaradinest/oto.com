@@ -40,14 +40,15 @@ const StatsSection = () => {
                   {stat.number}
                 </div>
                 <div 
-                  className="mb-3" 
+                  className="mb-3 mx-auto" 
                   style={{
                     width: '60px',
                     height: '4px',
                     backgroundColor: '#dc2626',
                     borderRadius: '2px',
                     display: 'block',
-                    margin: '0 auto'
+                    minWidth: '60px',
+                    minHeight: '4px'
                   }}
                 ></div>
                 <h3 className="text-lg font-bold mb-2 text-gray-700">{stat.label}</h3>
