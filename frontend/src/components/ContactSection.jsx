@@ -29,7 +29,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-white via-blue-50 to-white liquid-bg">
+    <section id="contact" className="py-20 bg-gradient-to-br from-white via-blue-50 to-white static-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
 
