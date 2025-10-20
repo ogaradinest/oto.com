@@ -20,7 +20,12 @@ const StatsSection = () => {
             <img 
               src="https://customer-assets.emergentagent.com/job_automate-business/artifacts/zuonih79_logo_mini.png" 
               alt="owl eyes" 
-              className="inline-block h-16 w-auto ml-2 aqua-glow rounded-full"
+              className="inline-block h-16 w-auto ml-2"
+              style={{
+                backgroundColor: 'transparent',
+                mixBlendMode: 'multiply',
+                opacity: '0.8'
+              }}
             />
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mt-4">
